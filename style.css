@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .navbar-brand{
     font-family: "Dancing Script", cursive !important;
@@ -91,4 +95,54 @@ section{
     height: 250px;
     width: 250px;
     border-radius: 10px;
+}
+#gallery{
+    height: 100vh;
+    width: 100%;
+}
+#contact{
+    background-color: rgb(206, 203, 203);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-us{
+    background-color: #fff;
+    padding: 50px;
+}
+#contact-us input{
+    padding: 5px 100px 5px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 30px 0;
+    font-size: 20px;
+}
+#contactss{
+    background-color: black;
+    color: #fff;
+    padding: 20px 50px;
+    z-index: 100;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    position: relative;
+}
+#contactss p{
+    margin-top: 40px;
+}
+.box{
+    background-color: rgba(215, 141, 3, 0.849);
+    height: 75vh;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+#blog img{
+    height: 250px;
+    width: 285px;
 }
